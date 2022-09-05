@@ -29,5 +29,5 @@ const filme = {
 console.log("Primeiro ator/atriz: ",filme.elenco[0]);
 console.log("Último ator/atriz: ",filme.elenco[filme.elenco.length-1]);
 console.log("Transmissões de Hoje: ",filme.transmissoesHoje);
-console.log("Horario de transmissão no canal Brasil", filme.transmissoesHoje[1])
+console.log("Horario de transmissão no canal Brasil: ", filme.transmissoesHoje[1].horario)
 
